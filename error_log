@@ -1,0 +1,76 @@
+[25-Jul-2025 19:12:14 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'seu_usuario_de_banco_de_dados'@'localhost' (using password: YES) in /home1/pedroj14/public_html/api/db_connect.php:21
+Stack trace:
+#0 /home1/pedroj14/public_html/api/db_connect.php(21): mysqli->__construct('localhost', 'seu_usuario_de_...', Object(SensitiveParameterValue), 'seu_nome_de_ban...')
+#1 /home1/pedroj14/public_html/api/avaliacoes.php(3): require_once('/home1/pedroj14...')
+#2 {main}
+  thrown in /home1/pedroj14/public_html/api/db_connect.php on line 21
+[25-Jul-2025 19:14:11 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pedrojustus'@'localhost' (using password: YES) in /home1/pedroj14/public_html/api/db_connect.php:21
+Stack trace:
+#0 /home1/pedroj14/public_html/api/db_connect.php(21): mysqli->__construct('localhost', 'pedrojustus', Object(SensitiveParameterValue), 'lifepremium')
+#1 /home1/pedroj14/public_html/api/avaliacoes.php(3): require_once('/home1/pedroj14...')
+#2 {main}
+  thrown in /home1/pedroj14/public_html/api/db_connect.php on line 21
+[25-Jul-2025 19:54:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Undefined constant "AIzaSyCMKMiICmRhyYVJH7FfJ7TI2" in /home1/pedroj14/public_html/api/gemini_proxy.php:6
+Stack trace:
+#0 /home1/pedroj14/public_html/api/avaliacoes.php(96): get_gemini_analysis('SUA_CHAVE_DE_AP...', Array, 'Exerc\xC3\xADcios,Des...')
+#1 /home1/pedroj14/public_html/api/avaliacoes.php(11): save_avaliacao(Object(mysqli), Array)
+#2 {main}
+  thrown in /home1/pedroj14/public_html/api/gemini_proxy.php on line 6
+[25-Jul-2025 19:54:41 America/Fortaleza] PHP Fatal error:  Uncaught Error: Undefined constant "AIzaSyCMKMiICmRhyYVJH7FfJ7TI2" in /home1/pedroj14/public_html/api/gemini_proxy.php:6
+Stack trace:
+#0 /home1/pedroj14/public_html/api/avaliacoes.php(96): get_gemini_analysis('SUA_CHAVE_DE_AP...', Array, 'Exerc\xC3\xADcios,Des...')
+#1 /home1/pedroj14/public_html/api/avaliacoes.php(11): save_avaliacao(Object(mysqli), Array)
+#2 {main}
+  thrown in /home1/pedroj14/public_html/api/gemini_proxy.php on line 6
+[25-Jul-2025 19:55:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Undefined constant "AIzaSyCMKMiICmRhyYVJH7FfJ7TI2" in /home1/pedroj14/public_html/api/gemini_proxy.php:6
+Stack trace:
+#0 /home1/pedroj14/public_html/api/avaliacoes.php(96): get_gemini_analysis('SUA_CHAVE_DE_AP...', Array, 'Exerc\xC3\xADcios,Des...')
+#1 /home1/pedroj14/public_html/api/avaliacoes.php(11): save_avaliacao(Object(mysqli), Array)
+#2 {main}
+  thrown in /home1/pedroj14/public_html/api/gemini_proxy.php on line 6
+[25-Jul-2025 19:56:31 America/Fortaleza] PHP Fatal error:  Uncaught Error: Undefined constant "AIzaSyCMKMiICmRhyYVJH7FfJ7TI2" in /home1/pedroj14/public_html/api/gemini_proxy.php:6
+Stack trace:
+#0 /home1/pedroj14/public_html/api/avaliacoes.php(96): get_gemini_analysis('SUA_CHAVE_DE_AP...', Array, 'Exerc\xC3\xADcios,Des...')
+#1 /home1/pedroj14/public_html/api/avaliacoes.php(11): save_avaliacao(Object(mysqli), Array)
+#2 {main}
+  thrown in /home1/pedroj14/public_html/api/gemini_proxy.php on line 6
+[25-Jul-2025 19:56:48 America/Fortaleza] PHP Fatal error:  Uncaught Error: Undefined constant "AIzaSyCMKMiICmRhyYVJH7FfJ7TI2" in /home1/pedroj14/public_html/api/gemini_proxy.php:6
+Stack trace:
+#0 /home1/pedroj14/public_html/api/avaliacoes.php(96): get_gemini_analysis('SUA_CHAVE_DE_AP...', Array, 'Exerc\xC3\xADcios,Des...')
+#1 /home1/pedroj14/public_html/api/avaliacoes.php(11): save_avaliacao(Object(mysqli), Array)
+#2 {main}
+  thrown in /home1/pedroj14/public_html/api/gemini_proxy.php on line 6
+[25-Jul-2025 20:03:00 America/Fortaleza] PHP Fatal error:  Cannot redeclare save_avaliacao() (previously declared in /home1/pedroj14/public_html/api/avaliacoes.php:16) in /home1/pedroj14/public_html/api/gemini_proxy.php on line 112
+[25-Jul-2025 20:04:44 America/Fortaleza] PHP Fatal error:  Cannot redeclare save_avaliacao() (previously declared in /home1/pedroj14/public_html/api/avaliacoes.php:16) in /home1/pedroj14/public_html/api/gemini_proxy.php on line 112
+[25-Jul-2025 20:04:58 America/Fortaleza] PHP Fatal error:  Cannot redeclare save_avaliacao() (previously declared in /home1/pedroj14/public_html/api/avaliacoes.php:16) in /home1/pedroj14/public_html/api/gemini_proxy.php on line 112
+[25-Jul-2025 20:07:33 America/Fortaleza] PHP Fatal error:  Cannot redeclare get_gemini_analysis() (previously declared in /home1/pedroj14/public_html/api/gemini_proxy.php:4) in /home1/pedroj14/public_html/api/gemini_proxy.php on line 133
+[25-Jul-2025 20:16:04 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_gemini_analysis() in /home1/pedroj14/public_html/api/avaliacoes.php:104
+Stack trace:
+#0 /home1/pedroj14/public_html/api/avaliacoes.php(11): save_avaliacao(Object(mysqli), Array)
+#1 {main}
+  thrown in /home1/pedroj14/public_html/api/avaliacoes.php on line 104
+[25-Jul-2025 20:16:23 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_gemini_analysis() in /home1/pedroj14/public_html/api/avaliacoes.php:104
+Stack trace:
+#0 /home1/pedroj14/public_html/api/avaliacoes.php(11): save_avaliacao(Object(mysqli), Array)
+#1 {main}
+  thrown in /home1/pedroj14/public_html/api/avaliacoes.php on line 104
+[25-Jul-2025 20:17:44 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_gemini_analysis() in /home1/pedroj14/public_html/api/avaliacoes.php:104
+Stack trace:
+#0 /home1/pedroj14/public_html/api/avaliacoes.php(11): save_avaliacao(Object(mysqli), Array)
+#1 {main}
+  thrown in /home1/pedroj14/public_html/api/avaliacoes.php on line 104
+[25-Jul-2025 20:17:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_gemini_analysis() in /home1/pedroj14/public_html/api/avaliacoes.php:104
+Stack trace:
+#0 /home1/pedroj14/public_html/api/avaliacoes.php(11): save_avaliacao(Object(mysqli), Array)
+#1 {main}
+  thrown in /home1/pedroj14/public_html/api/avaliacoes.php on line 104
+[25-Jul-2025 20:20:11 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_gemini_analysis() in /home1/pedroj14/public_html/api/avaliacoes.php:104
+Stack trace:
+#0 /home1/pedroj14/public_html/api/avaliacoes.php(11): save_avaliacao(Object(mysqli), Array)
+#1 {main}
+  thrown in /home1/pedroj14/public_html/api/avaliacoes.php on line 104
+[25-Jul-2025 20:20:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_gemini_analysis() in /home1/pedroj14/public_html/api/avaliacoes.php:104
+Stack trace:
+#0 /home1/pedroj14/public_html/api/avaliacoes.php(11): save_avaliacao(Object(mysqli), Array)
+#1 {main}
+  thrown in /home1/pedroj14/public_html/api/avaliacoes.php on line 104
